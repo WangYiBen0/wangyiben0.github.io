@@ -1,5 +1,3 @@
-<html>
-
 <head>
 	<meta charset="utf-8">
 	<title>Wing Din Gasterの主页</title>
@@ -8,4 +6,4 @@
 	<p>只是一个初三牲的Github Page罢了</p>
 	<p>为什么Github Page不支持PHP啊！</p>
 
-![源神，启动！]("D:\wangy\Documents\Source\Project\Home_Page\wangyiben0.github.io\Recourse\源神.png")
+![源神，启动！](.\Recourse\源神.png")
