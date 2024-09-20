@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,8 +7,5 @@
 	<h1>欢迎来到我的个人主页</h1>
 	<p>只是一个初三牲的Github Page罢了</p>
 	<p>为什么Github Page不支持PHP啊！</p>
-</body>
-
-</html>
 
 ![源神，启动！]("D:\wangy\Documents\Source\Project\Home_Page\wangyiben0.github.io\Recourse\源神.png")
