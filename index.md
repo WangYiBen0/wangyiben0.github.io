@@ -10,4 +10,4 @@
 	</body>
 </html>
 
-![源神，启动！]("/Recourse/Arcshin.png")
+![源神，启动！](/Resource/Picture/Arcshin.png)
