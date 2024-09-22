@@ -10,4 +10,5 @@
 	</body>
 </html>
 
-![源神，启动！](/Resource/Picture/Arcshin.png)
+![源神，启动！](Resource/Picture/Arcshin.png)
+![外星九鸟](Resource/Picture/Alien_Dove.png)
