@@ -2,6 +2,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Wing Din Gasterの主页</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			font-size: 50px;
+		}
+		p{
+			text-align: center;
+			font-size: 25px;
+		}
+	</style>
 	</head>
 	<body>
 		<h1>欢迎来到我的个人主页</h1>
@@ -12,3 +22,8 @@
 
 ![源神，启动！](Resource/Picture/Arcshin.png)
 ![外星九鸟](Resource/Picture/Alien_Dove.png)
+
+---
+some links...
+
+[HYZQ's Bad Time Simulator](https://hyzq.github.io/HYZQ-BTS-V1.4.5/)
