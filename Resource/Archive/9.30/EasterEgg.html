@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
+
+	body {
+		background-color: #000;
+	}
+
+	ul {
+		width: 1100px;
+		margin: 200px auto;
+		/* background-color: #aaa; */
+		overflow: hidden;
+		/*隐藏文字部分*/
+	}
+
+	ul li {
+		list-style: none;
+		/*去除前面的符号*/
+		float: left;
+		width: 260px;
+		height: 500px;
+		margin-left: 10px;
+		background-size: cover;
+		/*让图片全覆盖*/
+	}
+
+	ul li:nth-of-type(1) {
+		background-image: url(images/b10.jpg);
+	}
+
+	ul li:nth-of-type(2) {
+		background-image: url(images/b12.jpg);
+	}
+
+	ul li:nth-of-type(3) {
+		background-image: url(images/b14.jpg);
+	}
+
+	ul li:nth-of-type(4) {
+		background-image: url(images/b15.jpg);
+	}
+
+	ul li a {
+		text-decoration: none;
+		color: #ddd;
+		display: block;
+		/*块级标记*/
+		width: 260px;
+		height: 500px;
+		background-color: rgba(0, 0, 0, 0.5);
+		/*半透明*/
+		transform: translateY(500px);
+		/*让文字向下移动500px*/
+		transition: all linear 2s;
+	}
+
+	ul li:hover a {
+		transform: translateY(0);
+	}
+
+	ul li a h3 {
+		font-size: 30px;
+		margin-left: 30px;
+		padding-top: 60px;
+	}
+
+	ul li a p {
+		font-size: 15px;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-top: 20px;
+		border-top: solid 2px #aaa;
+	}
+</style>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Happy Birthday!</title>
+	<base href="javascript:;">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<ul>
+		<li>
+			<a>
+				<h3>什么，你不会以为还有吧</h3>
+				<p>天真</p>
+			</a>
+		</li>
+		<li>
+			<a>
+			</a>
+		</li>
+		<li>
+			<a>
+				<p>居然被你发现了，那好吧，祝你生日快乐，永远不死（
+				</p>
+			</a>
+		</li>
+		<li>
+			<a>
+				<p>下个月我就要考CSP第二轮了，抱抱~
+				</p>
+			</a>
+		</li>
+	</ul>
+</body>
+
+</html>
