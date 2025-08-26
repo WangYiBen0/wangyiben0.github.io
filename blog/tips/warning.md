@@ -27,6 +27,8 @@
 用 `std::cin` 记得 **关同步流 & 解绑** `std::cin.tie(nullptr)->sync_with_stdio(false);` 也就 $46$ 字符对吧  
 或者手写一个覆盖掉 `<iostream>` 里的更快
 
+当一个 `int` 范围内的数在 `(1ll << 31) - 1` 内，且进行 `+` / `-` / `++` / `--` 操作时，溢出风险高，考虑换成 `long long` （二分 100 pts $\rightarrow$ TLE 73 pts）
+
 ## 语言篇
 
 定义指针时必须初始化为 `nullptr`。
